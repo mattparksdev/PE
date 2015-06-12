@@ -1,0 +1,17 @@
+
+
+var integer = i
+var i = 0
+var list = []
+
+var euler_1 = function(){
+
+for(i = 0; i<1000; i++){
+	if ((i%3 ===0) || (i% 5 === 0){
+	list.push(i)
+}
+
+}
+return list;
+};
+var result = document.write(euler_1());

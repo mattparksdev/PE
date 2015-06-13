@@ -14,6 +14,9 @@ while(i<prime)
 
 }
 
+<!--first attempt--> 
+
+
 while(i<target) {
 	while(target%i === 0) {
 		(function(newtarget) {
@@ -24,6 +27,10 @@ while(i<target) {
 	i++;
 }
 alert largePrime
+
+
+<!--final-->
+
 
 function prime(x) {
    if ( x == 1 ) { return false; }
